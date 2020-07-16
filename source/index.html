@@ -1,12 +1,113 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
   </head>
-  <body>
+  <body class="page__body">
+  	<header class="page-header">
+  		<nav class="main-nav">
+  			<button class="main-nav__toggle" type="button">
+  				<span class="visually-hidden">Открыть меню</span>
+      		</button>
+	    <div class="main-nav__wrapper">
+	      <ul class="main-nav__list site-list">
+	        <li class="site-list__item site-list__item--active">
+	          <a>
+	            Главная
+	          </a>
+	        </li>
+	        <li class="site-list__item">
+	          <a href="photo.html">
+	            Фотографии
+	          </a>
+	        </li>
+	        <li class="site-list__item">
+	          <a href="form.html">
+	            Конкурс
+	          </a>
+	        </li>
+	        <li class="site-list__item">
+	          <a href="https://htmlacademy.ru">
+	            HTML Academy
+	          </a>
+	        </li>
+	      </ul>
+	      <ul class="main-nav__list user-list">
+	      	<li class="user-list__item">
+	          <a class="user-list__login js-login" href="login.html">
+	            Войти
+	          </a>
+	        </li>
+	      </ul>
+  			</div>
+    	</nav>
+  	</header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+  	<main class="page-mine">
+  		<h1 class="visually-hidden">Приложение "Пинк" - Взгляните на жизнь иначе!</h1>
+  		<p class="wellcome">
+  			Взгляните на жизнь иначе!
+  		</p>
+  		<div class="main-background">
+  			<img  src="https://via.placeholder.com/320x462" alt="задний фон">
+  			<img  src="https://via.placeholder.com/320x286" alt=Фото телефона>
+  		</div>
+  		<h2 class="visually-hidden">Ссылки для скачивания</h2>
+  			<button class="page-mine__download-button" type="button">	<label>Скачать приложение</label>
+  			</button>
+  		<section class="downloads">
+  			<a href="">
+  				<img  src="https://via.placeholder.com/47x56">
+  					<label class="visually-hidden">IOS</label>
+  			</a>
+  			<a href="">
+  				<img  src="https://via.placeholder.com/43x47">
+  					<label class="visually-hidden">Anroid</label>
+  			</a>
+  			<a href="">
+  				<img  src="https://via.placeholder.com/44x41">
+  					<label class="visually-hidden">Windows</label>
+  			</a>
+  		</section>
+  			<p class="downloads__list">
+  				Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+  			</p>
 
+  		<div class="gray-box">
+  			<section class="advantages">
+  				<h2 class="visually-hidden">Приемущества</h2>
+  				<ul class="advantages__list">
+  					<li class="advantages__item">
+  						<h2 class="advantages__title">
+  						Поднимает настроение
+  						</h2>
+  							<p class="advantages__description">
+  								Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+  							</p>
+  					</li>
+  					<li class="advantages__item">
+  						<h2 class="advantages__title">
+  							Меняет мир вокруг
+  						</h2>
+  							<p class="advantages__description">
+  								Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+  							</p>
+  					</li>
+  					<li class="advantages__item">
+  						<h2 class="advantages__title">
+  							Заводит новых друзей
+  						</h2>
+  							<p class="advantages__description">
+  								Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+  							</p>
+  					</li>
+  				</ul>
+  				<div class="phone-photo">
+  					<img  src="https://via.placeholder.com/157x320">
+  				</div>
+  			</section>
+  		</div>
+  	</main>
   </body>
 </html>
