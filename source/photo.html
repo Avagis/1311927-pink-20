@@ -38,7 +38,7 @@
   	</header>
 
   	<main class="page-main">
-  		<div class="main-background">
+  		<div class="page-main__background">
   			<p>Фото пользователей</p>
   			<img  src="https://via.placeholder.com/320x462" alt="фон">
   		</div>
@@ -50,7 +50,7 @@
 	        <figure class="reviews__item">
 	          <img class="reviews__author-image" src="https://via.placeholder.com/320x137" alt="Фото Анны">
 	          <figcaption class="reviews__author-info">
-	            <cite class="reviews__author-name">Анна</cite>
+	            <span class="reviews__author-name">Анна</span>
 	            <span class="reviews__author-time">(5 минут назад)</span>
 	            <p class="reviews__text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
 	          <button class="like-button"></button>
@@ -60,7 +60,7 @@
 	      <figure class="reviews__item">
 	        <img class="reviews__author-image" src="https://via.placeholder.com/320x137" alt="Фото Левона">
 	        <figcaption class="reviews__author-info">
-	          <cite class="reviews__author-name">Левон</cite>
+	          <span class="reviews__author-name">Левон</span>
 	          <span class="reviews__author-time">(5 часов назад)</span>
 	          <p class="reviews__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
 	          <button class="like-button">
@@ -71,7 +71,7 @@
 	      <figure class="reviews__item">
 	        <img class="reviews__author-image" src="https://via.placeholder.com/320x137" alt="Фото Антона">
 	        <figcaption class="reviews__author-info">
-	          <cite class="reviews__author-name">Антон</cite>
+	          <span class="reviews__author-name">Антон</span>
 	          <span class="reviews__author-time">(12 часов назад)</span>
 	          <p class="reviews__text">Соседи будут рады!</p>
 	          <button class="like-button">
@@ -83,7 +83,7 @@
 	      <figure class="reviews__item">
 	        <img class="reviews__author-image" src="https://via.placeholder.com/320x137" alt="Фото Бориса">
 	        <figcaption class="reviews__author-info">
-	          <cite class="reviews__author-name">Борис</cite>
+	          <span class="reviews__author-name">Борис</span>
 	          <span class="reviews__author-time">(20 часов назад)</span>
 	          <p class="reviews__text">Здесь могла быть ваша цитата о высоком и вечном</p>
 	          <button class="like-button">
@@ -94,7 +94,7 @@
 	      <figure class="reviews__item">
 	        <img class="reviews__author-image" src="https://via.placeholder.com/320x137" alt="Фото Сергея">
 	        <figcaption class="reviews__author-info">
-	          <cite class="reviews__author-name">Сергей</cite>
+	          <span class="reviews__author-name">Сергей</span>
 	          <span class="reviews__author-time">(25 часов назад)</span>
 	          <p class="reviews__text">Самая кубанская в мире!</p>
 	          <button class="like-button">
@@ -105,7 +105,7 @@
 	      <figure class="reviews__item">
 	        <img class="reviews__author-image" src="https://via.placeholder.com/320x137" alt="Фото Максима">
 	        <figcaption class="reviews__author-info">
-	          <cite class="reviews__author-name">Максим</cite>
+	          <span class="reviews__author-name">Максим</span>
 	          <span class="reviews__author-time">(40 часов назад)</span>
 	          <p class="reviews__text">Где снег-то?</p>
 	          <button class="like-button">
@@ -116,7 +116,7 @@
 	      <figure class="reviews__item">
 	        <img class="reviews__author-image" src="https://via.placeholder.com/320x137" alt="Фото Надежды">
 	        <figcaption class="reviews__author-info">
-	          <cite class="reviews__author-name">Надежда</cite>
+	          <span class="reviews__author-name">Надежда</span>
 	          <span class="reviews__author-time">(45 часов назад)</span>
 	          <p class="reviews__text">Всем GM и взаимные лайки!</p>
 	          <button class="like-button">
@@ -128,20 +128,20 @@
 	  </div>
 	</section>
 
-<footer class="page-footer">
+    <footer class="page-footer">
   		<div class="page-footer__wrapper">
 	  		<img class="page-footer__logo" src="https://via.placeholder.com/59x40" alt="Лого Пинк">
 		    <b class="page-footer__social-title">Pink</b>
 	  			<div class="page-footer__social">
 		         <ul class="social-list">
-		          <li class="social-item">
-		            <a class="socia-link link-twitter" href="https://www.twitter.com/pink">Мы в Твитере</a>
+		          <li class="social-list__item">
+		            <a class="social-list__link--twitter" href="https://www.twitter.com/pink">Мы в Твитере</a>
 		          </li>
-		          <li class="social-item">
-		            <a class="social-link link-facebook" href="https://www.facebook.com/pink">Мы в Фейсбуке</a>
+		          <li class="social-list__item">
+		            <a class="social-link--facebook" href="https://www.facebook.com/pink">Мы в Фейсбуке</a>
 		          </li>
-		          <li class="social-item">
-		            <a class="social-link link-instagram" href="https://www.youtube.com/pink">Мы в Ютубе</a>
+		          <li class="social-list__item">
+		            <a class="social-link--instagram" href="https://www.youtube.com/pink">Мы в Ютубе</a>
 		          </li>
 		        </ul>
 	    	</div>
@@ -150,7 +150,7 @@
 	        	<a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
 	      </div>
 	    </div>
-  	  </main>
   	</footer>	
+  	</main>
   </body>
 </html>
